@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>../99_diagona/add.png</file>
+        <file>../99_diagona/bold.png</file>
+        <file>../99_diagona/checkmark.png</file>
+        <file>../99_diagona/clipboard.png</file>
+        <file>../99_diagona/close.png</file>
+        <file>../99_diagona/connect (1).png</file>
+        <file>../99_diagona/connect.png</file>
+        <file>../99_diagona/contro.png</file>
+        <file>../99_diagona/control (1).png</file>
+        <file>../99_diagona/control.png</file>
+        <file>../99_diagona/copy (1).png</file>
+        <file>../99_diagona/copy.png</file>
+        <file>../99_diagona/cross.png</file>
+        <file>../99_diagona/delete.png</file>
+        <file>../99_diagona/disconnect.png</file>
+        <file>../99_diagona/diskette (1).png</file>
+        <file>../99_diagona/diskette.png</file>
+        <file>../99_diagona/document (1).png</file>
+        <file>../99_diagona/document.png</file>
+        <file>../99_diagona/file (1).png</file>
+        <file>../99_diagona/file.png</file>
+        <file>../99_diagona/folder.png</file>
+        <file>../99_diagona/gear.png</file>
+        <file>../99_diagona/help.png</file>
+        <file>../99_diagona/in.png</file>
+        <file>../99_diagona/italic.png</file>
+        <file>../99_diagona/justify.png</file>
+        <file>../99_diagona/left.png</file>
+        <file>../99_diagona/list.png</file>
+        <file>../99_diagona/paste.png</file>
+        <file>../99_diagona/radio.png</file>
+        <file>../99_diagona/right.png</file>
+        <file>../99_diagona/scissors.png</file>
+        <file>../99_diagona/speaker.png</file>
+        <file>../99_diagona/underlined.png</file>
+        <file>../99_diagona/zoom.png</file>
+        <file>res/undo.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>res/contro.png</file>
+        <file>res/control.png</file>
+    </qresource>
+</RCC>

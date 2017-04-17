@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\mycrypto.o
+./debug\myfiles.o
+./debug\mysubd.o
+./debug\form.o
+./debug\grafikzdraw.o
+./debug\qrc_resours.o
+./debug\moc_mainwindow.o
+./debug\moc_myotwet.o
+./debug\moc_form.o
+./debug\moc_grafikzdraw.o
+);

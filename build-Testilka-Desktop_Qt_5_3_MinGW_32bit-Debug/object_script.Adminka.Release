@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\mycrypto.o
+./release\myfiles.o
+./release\mysubd.o
+./release\form.o
+./release\grafikzdraw.o
+./release\qrc_resours.o
+./release\moc_mainwindow.o
+./release\moc_myotwet.o
+./release\moc_form.o
+./release\moc_grafikzdraw.o
+);

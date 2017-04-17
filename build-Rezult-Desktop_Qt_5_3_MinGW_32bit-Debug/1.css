@@ -1,0 +1,224 @@
+QWidget {
+    background-color: #d0d9f0;
+}
+
+QTabWidget::pane {
+
+}
+
+QTabWidget::tab-bar
+{
+    left: 30px;
+
+}
+
+QTabBar::tab {
+    padding: 2px 15px 2px 15px;
+    margin-top: 0px;
+    color: #303070;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+QTabBar::tab:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+        stop: 0 #fffaff, stop: 0.4 #fff0c0,
+        stop: 0.5 #fff0c0, stop: 1.0 #d0d9f0);
+    border: 1px solid #a4a063;
+}
+
+QTabBar::tab:!selected {
+
+}
+
+QTabBar::tab:selected {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+        stop: 0 #f0f0ff, stop: 0.4 #f4f4ff,
+        stop: 0.5 #e7e7ff, stop: 1.0 #d0d9f0);
+    border: 1px solid #808090;
+    border-bottom: solid 0px;
+}
+
+QPushButton {
+    background-color:
+        qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6fcff, stop: 1.0 #a0b0d0);
+    border: 1px solid #a0a0b0;
+    border-radius: 3px;
+}
+
+QPushButton:checked {
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f0eeaa, stop: 1 #eeaa88);
+}
+QPushButton:pressed {
+    background-color: #e0e3ff;
+}
+
+QFrame{
+border-radius: 5px;
+border: 2px solid #808090;
+margin:0;
+}
+
+QTextBrowser
+{
+    border: 2px solid #808090;
+    background-color: #f0f0f0;
+}
+
+QTextEdit
+{
+    border: 2px solid #808090;
+    background-color: #f0f0f0;
+}
+
+QLabel{
+border: 2px solid #808090;
+background-color: #808080;
+}
+
+QListWidget
+{
+border: 2px solid #f0f0f0;
+background-color: #f0f0f0;
+margin:0;
+}
+
+
+
+QScrollArea{
+border: 2px solid #808090;
+background-color: #f0f0f0;
+}
+
+QSpinBox
+{
+    font: 75 10pt "Tahoma";
+    border-radius: 5px;
+    subcontrol-origin: border;
+    background-color: #f0f0f0;
+}
+
+ QSpinBox::up-button {
+ background-color:
+     qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6fcff, stop: 1.0 #a0b0d0);
+
+ border-image: url(99_diagona/contro.png);
+ }
+
+ QSpinBox::down-button {
+ background-color:
+     qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6fcff, stop: 1.0 #a0b0d0);
+
+ border-image: url(99_diagona/control.png);
+ }
+
+QDoubleSpinBox
+{
+    font: 75 10pt "Tahoma";
+    border-radius: 5px;
+    subcontrol-origin: border;
+    background-color: #f0f0f0;
+}
+
+QLineEdit
+{
+    font: 75 10pt "Tahoma";
+    border-radius: 5px;
+    subcontrol-origin: border;
+    background-color: #f0f0f0;
+}
+
+
+QTimeEdit
+{
+    font: 75 10pt "Tahoma";
+    border-radius: 5px;
+    subcontrol-origin: border;
+    background-color: #f0f0f0;
+}
+
+QPlainTextEdit
+{
+    font: 75 10pt "Tahoma";
+    border-radius: 5px;
+    subcontrol-origin: border;
+    background-color: #f0f0f0;
+}
+
+ QDoubleSpinBox::up-button {
+ background-color:
+     qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6fcff, stop: 1.0 #a0b0d0);
+ border: 1px solid #a0a0b0;
+ border-radius: 3px;
+ border-image: url(:/icons/C:/Users/electrobas94/Desktop/99_diagona/contro.png);
+ }
+
+ QDoubleSpinBox::down-button {
+ background-color:
+     qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6fcff, stop: 1.0 #a0b0d0);
+ border: 1px solid #a0a0b0;
+ border-radius: 3px;
+ border-image: url(:/icons/C:/Users/electrobas94/Desktop/99_diagona/control.png);
+ }
+
+QScrollBar {
+border: 0px solid #808090;
+ border-radius: 3px;
+
+ }
+ QScrollBar::handle {
+    border: 1px solid #808090;
+     border-radius: 5px;
+
+ }
+ QScrollBar::add-line {
+border-radius: 5px;
+ }
+
+ QScrollBar::sub-line {
+border-radius: 5px;
+ }
+
+QSpinBox::up-button:pressed
+{
+    background-color: #e0e3ff;
+}
+QSpinBox::down-button:pressed
+{
+    background-color: #e0e3ff;
+}
+
+QFontComboBox
+{
+background-color:
+    qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6fcff, stop: 1.0 #a0b0d0);
+border: 1px solid #a0a0b0;
+border-radius: 3px;
+}
+QComboBox
+{
+background-color:
+    qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6fcff, stop: 1.0 #a0b0d0);
+border: 1px solid #a0a0b0;
+border-radius: 3px;
+}
+
+QProgressBar
+{
+    border-radius: 5px;
+    border: 2px solid #808090;
+    margin:0;
+}
+
+ QProgressBar::chunk {
+ background-color: #808080;
+     width: 10px;
+     margin: 0.5px;
+ }
+
+  QComboBox:editable  {
+    background-color: #f0f0f0;
+    border: 1px solid #a0a0b0;
+    border-radius: 3px;
+}
